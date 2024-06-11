@@ -1,0 +1,3 @@
+Quick example repo, with 2 scripts: 
+- image_build.sh creates a fresh docker image (dockerhub username would need editing for anyone other than me, 'hemprichbennett'), using the instructions written in the DOCKERFILE
+- container_terminal.sh pulls the image from dockerhub (unless it's cached locally), then runs it as a container, running the executable file. NB you'd probably want to mount a volume in this step, so that files can be passed to and from the container
